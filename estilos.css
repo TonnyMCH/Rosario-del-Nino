@@ -1,0 +1,41 @@
+/* Estilos para el cuerpo */
+body {
+  font-family: 'Times New Roman', serif;
+  font-size: 0.5cm;
+  color: black;
+  background-color: LightCyan;
+  text-align: justify;
+  margin: 20px;
+}
+
+/* Estilos para los enlaces */
+a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: blue;
+  font-size: 0.6cm;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+/* Estilos para las secciones ocultas */
+.section {
+  display: none;
+}
+
+/* Estilos para los encabezados */
+h1, h2 {
+  text-align: center;
+}
+
+/* Estilos para las imágenes */
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  padding: 0; /* Eliminar relleno */
+}

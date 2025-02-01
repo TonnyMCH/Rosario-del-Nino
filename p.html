@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproducir Audio</title>
+</head>
+<body>
+    <p><span id="audio1" style="color: blue; cursor: pointer; text-decoration: underline;">Audio 1</span></p>
+    <audio id="player" src="audios/Audio%20(1).m4a" controls></audio>
+
+<p><span id="audio1" style="color: blue; cursor: pointer; text-decoration: underline;">Audio 2</span></p>
+    <audio id="player" src="audios/Audio%20(1).mp3" controls></audio>
+    
+    <script>
+        document.getElementById("audio1").addEventListener("click", function() {
+            var audio = document.getElementById("player");
+            audio.play();
+        });
+    </script>
+
+
+</body>
+</html>

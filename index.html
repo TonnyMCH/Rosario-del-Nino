@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rezo-del-Niño</title>
+  <link rel="icon" type="image/png" href="icono.png">
+  <link rel="manifest" href="manifest.json">
+  <!-- Enlace al archivo CSS externo -->
+  <link rel="stylesheet" href="estilos.css">
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+
+    function showSection(sectionId) {
+      // Ocultar todas las secciones
+      const sections = document.querySelectorAll(".section");
+      sections.forEach(section => section.style.display = "none");
+
+      // Mostrar la sección seleccionada
+      const sectionToShow = document.getElementById(sectionId);
+      if (sectionToShow) {
+        sectionToShow.style.display = "block";
+      }
+    }
+  </script>
+</head>
+<body>
+    <h1>Rozario del Niño Jesús</h1>
+
+    <p><span id="audio1" style="color: blue; cursor: pointer; text-decoration: underline;">Canción de Inicio</span></p>
+    <audio id="player" src="audios/Audio%20(1).m4a" controls></audio>
+
+    <p>
+        V. En el nombre del Padre y del Hijo y del Espíritu Santo.<br>
+        R. Amén.<br><br>
+        V. Dios mío, ven en mi auxilio.<br>
+        R. Señor, date prisa en socorrerme.<br><br>
+        V. Gloria al Padre y al Hijo y al Espíritu Santo.<br>
+        R. Como era en el principio, ahora y siempre, por los siglos de los
+        siglos.<br><br> Amén.
+    </p>
+
+    <h2>ORACIÓN INICIAL</h2>
+
+    <p>
+        Jesús, María y José <br>
+        en vosotros contemplamos<br>
+        el esplendor del verdadero amor,<br>
+        a vosotros, confiados, nos dirigimos.<br>
+        Santa Familia de Nazaret,<br>
+        haz también de nuestras familias<br>
+        lugar de comunión y cenáculo de oración,<br>
+        auténticas escuelas del Evangelio<br>
+        y pequeñas iglesias domésticas.<br><br>
+        Santa Familia de Nazaret,<br>
+        que nunca más haya en las familias episodios<br>
+        de violencia, de cerrazón y división;<br>
+        que quien haya sido herido o escandalizado<br>
+        sea pronto consolado y curado.<br><br>
+        Santa Familia de Nazaret,<br>
+        haz tomar conciencia a todos<br>
+        del carácter sagrado e inviolable de la familia,<br>
+        de su belleza en el proyecto de Dios.<br>
+        Jesús, María y José,<br>
+        escuchad, acoged nuestra súplica.<br>
+        Amén.<br>
+    </p>
+
+    <h2>CREDO</h2>
+
+    <p>
+        Creo en Dios, Padre todopoderoso,<br>
+        creador del cielo y de la tierra.<br>
+        Creo en Jesucristo, su único Hijo, nuestro Señor,<br>
+        que fue concebido por obra y gracia del Espíritu Santo,<br>
+        nació de Santa María Virgen,<br>
+        padeció bajo el poder de Poncio Pilato,<br>
+        fue crucificado, muerto y sepultado,<br>
+        descendió a los infiernos,<br>
+        al tercer día resucitó de entre<br>
+        los muertos, subió a los cielos y está sentado a la derecha de Dios<br>
+        Padre todopoderoso.<br>
+        Desde allí ha de venir a juzgar a vivos y muertos.<br>
+        Creo en el Espíritu Santo, la Santa Iglesia católica, <br>
+        la resurrección de la carne y la vida eterna.<br>
+        Amén.
+    </p>
+
+    <h2>
+        Primer Misterio:<br>
+        La Encarnación del Hijo de Dios.
+    </h2>
+
+    <p>
+        Reflexionemos en el Misterio del Redentor que se hizo hombre
+        como nosotros en el vientre santo de María de Nazaret y
+        ofrezcamos este primer misterio por todas las personas que
+        cuidan de la vida desde el hogar, es decir, todas las mujeres y
+        los hombres que alimentan, enseñan y protegen a sus hijos y
+        abuelos.<br /><br />
+
+        Padre nuestro, diez ave María y gloria<br /><br />
+
+        V/ Jesús, José y María, por posada les ofrezco<br />
+        R/ El corazón y el alma mía.
+    </p>
+
+    <p><span id="audio1" style="color: blue; cursor: pointer; text-decoration: underline;">Canto</span></p>
+    <audio id="player" src="audios/Audio%20(1).mp3" controls></audio>
+    <h2>
+        Segundo Misterio:<br />
+        La Visitación de Santa María a su
+        prima Santa Isabel
+    </h2>
+
+    <p>
+        El Hijo se solidarizó con nosotros y nos visitó con un amor
+        entrañable. Ofrezcamos este segundo misterio de gozo por todas las personas que atienden a personas que están atravesando situaciones de enfermedad.<br /><br />
+        Padre nuestro, diez ave María y gloria<br /><br />
+        V/ Jesús, José y María, por posada les ofrezco<br />
+        R/ El corazón y el alma mía.
+    </p>
+
+    <p><span id="audio1" style="color: blue; cursor: pointer; text-decoration: underline;">Canto</span></p>
+    <audio id="player" src="audios/Audio%20(2).mp3" controls></audio>
+
+    <h2>
+        Tercer Misterio:<br />
+        El Nacimiento del Hijo de Dios
+    </h2>
+
+    <p>
+        La luz del Redentor se manifestó entre los pobres de Belén.
+        Ofrezcamos este tercer misterio por las familias que están
+        pasando necesidades a causa del desempleo y la escasez,
+        provocadas por la desigualdad y la marginación.<br /><br />
+
+        Padre nuestro, diez ave María y gloria<br /><br />
+        V/ Jesús, José y María, por posada les ofrezco<br />
+        R/ El corazón y el alma mía.
+
+    <p><span id="audio1" style="color: blue; cursor: pointer; text-decoration: underline;">Canto</span></p>
+    <audio id="player" src="audios/Audio%20(3).mp3" controls></audio>
+    </p>
+
+    <h2>
+        Cuarto Misterio:<br />
+        La presentación de Jesús en el
+        Templo
+    </h2>
+    <p>
+        Dios hecho niño, es la luz de las naciones y la gloria de los
+        pueblos. Ofrezcamos este cuarto misterio por los líderes de
+        todos los países del mundo, de modo que tomen las mejores
+        decisiones para salvaguardar la vida humana, especialmente
+        aquella que es vista como algo descartable.<br /><br />
+        Padre nuestro, diez ave María y gloria<br /><br />
+        V/ Jesús, José y María, por posada les ofrezco<br />
+        R/ El corazón y el alma mía.
+    </p>
+    <p><span id="audio1" style="color: blue; cursor: pointer; text-decoration: underline;">Canto</span></p>
+    <audio id="player" src="audios/Audio%20(4).mp3" controls></audio>
+    <h2>
+        Quinto Misterio:<br />
+        El Niño Jesús perdido y hallado en
+        el Templo
+    </h2>
+    <p>
+        La Sagrada Familia de Nazaret nos revela la fidelidad y el amor
+        venido de la Santísima Trinidad. Ofrezcamos en este quinto
+        misterio a las madres y padres desconsolados por la pérdida de
+        un hijo, para que en la misericordia de Dios hallen paz.<br /><br />
+        Padre nuestro, diez ave María y gloria<br /><br />
+        V/ Jesús, José y María, por posada les ofrezco<br />
+        R/ El corazón y el alma mía.
+    </p>
+
+    <h2>PADRE NUESTRO... TRES AVE MARÍA...</h2>
+    <p>
+        Padre nuestro, que estás en el cielo, santificado sea tu nombre,
+        venga a nosotros tu reino, hágase tu voluntad, en la tierra como en
+        el cielo. Danos hoy nuestro pan de cada día, perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden. No
+        nos dejes caer en la tentación, y líbranos del mal. Amén<br /><br />
+        Dios te Salve, María, Hija de Dios Padre, la más poderosa,
+        llena eres de gracia, el Señor está contigo. Bendita tú eres entre
+        todas las mujeres y bendito es el fruto de tu vientre, Jesús. Santa
+        María, Madre de Dios, ruega por nosotros pecadores, ahora y en la
+        hora de nuestra muerte. Amén.<br /><br />
+        Dios te Salve, María, Madre de Dios Hijo, la más amable,
+        llena eres de gracia...<br /><br />
+        Dios te Salve, María, Esposa de Dios Espíritu Santo, la más
+        sabia, llena eres de gracia... <br /><br />
+
+        Gloria al Padre y al Hijo y al Espíritu Santo. Como era en el
+        principio ahora y siempre, por los siglos de los siglos. Amén.<br /><br />
+        SALVE<br />
+        Dios te Salve, Reina y Madre de misericordia, vida, dulzura y
+        esperanza nuestra, Dios te salve. A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando, en este valle de
+        lágrimas. Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos
+        tus ojos misericordiosos, y, después de este destierro, muéstranos
+        a Jesús, fruto bendito de tu vientre. ¡Oh clemente, oh piadosa, oh
+        dulce Virgen María!
+        Ruega por nosotros Santa Madre de Dios, para que seamos dignos
+        de alcanzar las promesas de Nuestro Señor Jesucristo. Amén.<br /><br />
+        V/ Goza y alégrate Virgen María, aleluya.<br />
+        T/ Porque en verdad ha resucitado el Señor, aleluya.
+
+    </p>
+
+    <p><span id="audio1" style="color: blue; cursor: pointer; text-decoration: underline;">Alabado</span></p>
+    <audio id="player" src="audios/Audio%20(5).mp4" controls></audio>
+
+    <h2>ORACIONES FINALES</h2>
+    <p>
+        Dirijamos hoy nuestra oración con especial carioñ a nuestra padre
+        San José, para que como custodio de la Familia de Nazaret nos
+        muestre bondadoso el rostro del Niño Jesús.<br /><br />
+        Salve, custodio del Redentor
+        y esposo de la Virgen María.
+        A ti Dios confió a su Hijo,
+        en ti María depositó su confianza,
+        contigo Cristo se forjó como hombre.<br /><br />
+        Oh, bienaventurado José,
+        muéstrate padre también a nosotros
+        y guíanos en el camino de la vida.
+        Concédenos gracia, misericordia y valentía,
+        y defiéndenos de todo mal.<br /><br />
+        Amén.<br /><br />
+        Bajo tu amparo nos acogemos, Santa Madre de Dios,
+        no desprecies nuestras súplicas en las necesidades,
+        antes bien líbranos de todo peligro, oh Virgen gloriosa y bendita.
+    </p>
+    <h2>BENDICIÓN FINAL</h2>
+    <p>
+        Dulce Madre, no te alejes, tu vista de nosotros no apartes.
+        Ven con nosotros a todas partes y nunca solos nos dejes.
+        Ya que nos proteges tanto como verdadera Madre,
+        Haz que nos bendiga el Padre, el Hijo y el Espíritu Santo.<br /><br />
+        Amén.
+    </p>
+</body>
+</html>

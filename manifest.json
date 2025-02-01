@@ -1,0 +1,21 @@
+{
+    "name": "Oraciones",
+    "short_name": "Oraciones",
+    "description": "Aplicaci\u00f3n de contenido espiritual y recursos para el Santo Rosario.",
+    "icons": [
+        {
+            "src": "icono.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icono.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "lightgreen",
+    "theme_color": "blue"
+}
